@@ -35,7 +35,7 @@ class QuestionAdmin(admin.ModelAdmin):
     list_display = ['content']
 
 
-# Register models here
+# Register Question and Choice models here
 admin.site.register(Question, QuestionAdmin)
 admin.site.register(Choice)
 admin.site.register(Submission)
